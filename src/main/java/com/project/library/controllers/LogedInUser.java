@@ -9,7 +9,6 @@ public class LogedInUser {
 	
 	public static LogedInUser getInstance() 
 	{	
-		System.out.println("get instance 1");
 		if  (logedInUser == null)
 		{
 			synchronized (LogedInUser.class) {
